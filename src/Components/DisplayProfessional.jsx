@@ -1,9 +1,10 @@
 import React from 'react'
+import proff from '../assets/proff-login.jpg';
 
 const DisplayProfessional = () => {
   return (
     <div className='min-h-screen bg-[#4876A9] flex items-center justify-center p-4 bg-cover bg-center'
-    style={{ backgroundImage: "url('src/assets/proff-login.jpg')" }}>
+    style={{ backgroundImage: `url(${proff})`}}>
       <div className='bg-[#203955] w-full max-w-[35rem] p-6 md:p-[3rem] rounded-lg opacity-90'>
         <div className='text-3xl sm:text-4xl md:text-5xl text-white text-center pb-4'>PROFESSIONAL LOGIN</div>
         <div>

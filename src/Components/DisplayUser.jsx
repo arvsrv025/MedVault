@@ -1,9 +1,10 @@
 import React from 'react';
+import user from '../assets/user-back.jpg'
 
 const DisplayUser = () => {
   return (
     <div className='min-h-screen flex items-center justify-center p-4 bg-cover bg-center'
-    style={{ backgroundImage: "url('src/assets/user-back.jpg')" }}>
+    style={{ backgroundImage: `url(${user})` }}>
       <div className='bg-[#203955] w-full max-w-[35rem] p-6 md:p-[3rem] flex flex-col justify-items-center rounded-lg opacity-90'>
         <div className='text-3xl sm:text-4xl md:text-5xl text-white pb-4 text-center'>USER LOGIN</div>
         <div>

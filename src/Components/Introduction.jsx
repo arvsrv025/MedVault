@@ -1,8 +1,9 @@
 import React from 'react';
+import doctors from '../assets/doctors.jpg'
 
 const Introduction = () => {
   return (
-    <div className='bg-cover bg-center h-full flex items-center justify-center p-4' style={{ backgroundImage: "url('src/assets/doctors.jpg')" }}>
+    <div className='bg-cover bg-center h-full flex items-center justify-center p-4' style={{ backgroundImage: `url(${doctors})` }}>
       <div className='bg-[#203955] flex flex-col md:flex-row items-center justify-between h-auto md:h-[25rem] w-full md:w-[85rem] opacity-85 p-6 md:p-0'>
         <div className='w-full md:w-[48%] text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white flex items-center justify-center text-center md:text-left'>
           MED<br/>VAULT

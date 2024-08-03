@@ -1,11 +1,12 @@
 import React from 'react';
+import contactus from '../assets/Contact us.jpg'
 
 const ContactUs = () => {
   return (
     <div 
       id='contactus' 
       className='bg-cover bg-center h-auto md:h-[35rem] flex items-center justify-center p-4' 
-      style={{ backgroundImage: "url('src/assets/Contact us.jpg')" }}
+      style={{ backgroundImage: `url(${contactus})` }}
     >
       <div className='bg-[#203955] h-auto md:h-[28rem] w-full max-w-[75rem] p-6 md:p-[3rem] opacity-85'>
         <div className='text-3xl sm:text-4xl md:text-5xl text-white pb-4'>Contact Us..</div>

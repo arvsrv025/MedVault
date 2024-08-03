@@ -1,11 +1,12 @@
 import React from 'react';
+import handshake from '../assets/handshake.jpg'
 
 const AboutUs = () => {
   return (
     <div 
       id='aboutus' 
       className='bg-cover bg-center h-auto md:h-[35rem] flex items-center justify-center p-4' 
-      style={{ backgroundImage: "url('src/assets/handshake.jpg')" }}
+      style={{ backgroundImage: `url(${handshake})` }}
     >
       <div className='bg-[#203955] flex flex-col w-full max-w-[75rem] p-6 md:p-[3rem] opacity-90'>
         <div className='text-4xl sm:text-5xl md:text-6xl text-white pb-4 md:pb-[1rem]'>
