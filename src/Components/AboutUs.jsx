@@ -13,11 +13,9 @@ const AboutUs = () => {
         </div>
         <div className='h-[0.1rem] bg-white flex w-[12rem] sm:w-[18rem] md:w-[22rem] mb-4 md:mb-[1rem] rounded-sm'></div>
         <div className='text-sm sm:text-base md:text-xl text-white'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ligula odio, imperdiet ac pellentesque quis, viverra et sapien. Nam commodo, turpis at blandit volutpat, odio turpis faucibus turpis, non volutpat dolor erat a turpis.
-          Etiam dapibus mattis erat ac sagittis. Etiam nec arcu at massa tempor volutpat. Ut bibendum, eros sed semper placerat, orci urna hendrerit ligula, at elementum augue nunc id turpis. Nulla mauris sem, convallis ut luctus non, mollis a urna.
-          <br/><br/> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ligula odio, imperdiet ac pellentesque quis, viverra et sapien. Nam commodo, turpis at blandit volutpat, odio turpis faucibus turpis, non volutpat dolor erat a turpis.
-          Etiam dapibus mattis erat ac sagittis. Etiam nec arcu at massa tempor volutpat. Ut bibendum, eros sed semper placerat, orci urna hendrerit ligula, at elementum augue nunc id turpis. Nulla mauris sem, convallis ut luctus non, mollis a urna.
+        Our dedicated team is composed of passionate professionals who bring a wealth of experience in healthcare and technology. Each member is committed to ensuring that MedVault Resonates provides a user-friendly and effective solution for managing medical histories. <br/>Aranv Srivastava, our [FullStack Developer], Deeksha Gupta, our [BackEnd Developer], Keshvi Agarwal, our [UI/UX Designer] and Raghav Aggarwal, our[FrontEnd Developer]. <br/>Our collaborative culture drives us to achieve excellence in everything we do.
+      <br/><br/>Connect With Us
+We would love to hear from you. Visit our Website or connect us on [Medvault@gmail.com]. Don’t forget to sign up for our newsletter to stay updated on the latest news and offers
         </div>
       </div>
     </div>
